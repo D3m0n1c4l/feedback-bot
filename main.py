@@ -13,10 +13,10 @@ from telegram.ext import (
 
 # ===== CONFIG =====
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = [int(os.getenv("ADMIN_ID")]
+ADMIN_IDS = [int(os.getenv("ADMIN_ID"))]
 TIMEOUT_SECONDS = 3600
 DATA_FILE = "bot_data.json"
-FEEDBACK_ADMINS = [int(os.getenv("ADMIN_ID")]  # Admins allowed to submit feedback
+FEEDBACK_ADMINS = [int(os.getenv("ADMIN_ID"))]  # Admins allowed to submit feedback
 
 # ===== STORAGE =====
 if os.path.exists(DATA_FILE):
